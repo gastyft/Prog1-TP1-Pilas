@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1679552887 source:c:\users\usuario\desktop\ejercicio 7\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"pila.h"
+
+1490112217 c:\users\usuario\desktop\ejercicio 7\pila.h
+	<stdio.h>
+	<malloc.h>
+
+1490112217 source:c:\users\usuario\desktop\ejercicio 7\pila.c
+	"pila.h"
+
+1490112217 source:c:\users\usuario\desktop\utn\programacion y laboratorio 1\tps\tp1-pilas\ejercicio 7\pila.c
+	"pila.h"
+
+1490112217 c:\users\usuario\desktop\utn\programacion y laboratorio 1\tps\tp1-pilas\ejercicio 7\pila.h
+	<stdio.h>
+	<malloc.h>
+
