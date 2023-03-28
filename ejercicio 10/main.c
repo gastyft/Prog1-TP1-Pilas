@@ -6,7 +6,7 @@
 
 /**
 Cargar las pilas A y B, y luego compararlas, evaluando si son completamente iguales (en cantidad de elementos,
-valores que contienen y posición de los mismos). Mostrar por pantalla el resultado.
+valores que contienen y posiciÃ³n de los mismos). Mostrar por pantalla el resultado.
 */
 
 
@@ -60,11 +60,13 @@ int main()
     while(!pilavacia(&A))
     {
         apilar(&auxA,desapilar(&A));
+        printf("Las pilas son distintas\n");
     }
 ///si quedan datos en B los pasa a auxB
     while(!pilavacia(&B))
     {
         apilar(&auxB,desapilar(&B));
+        printf("Las pilas son distintas\n");
     }
 ///Muestreo de pilas
     mostrar(&auxA);
